@@ -54,5 +54,3 @@ Látky dělíme podle toho, jak reagují na vnější magnetické pole:
 2.  **Intenzita v cívce:** $H = \frac{F_m}{l}$
 3.  **Indukce (síla):** $B = \mu_0 \cdot \mu_r \cdot H$
 4.  **Magnetický tok:** $\Phi = B \cdot S$ (jednotka **Wb - Weber**) – to je to, co reálně "teče" jádrem.
-
-**Co bys chtěl od toho druhého AI teď slyšet?** Pokud ti to vysvětlilo jinak, napiš – můžu ti to zkusit připodobnit k něčemu jinému (třeba k průtoku vody v trubkách). Chceš zkusit jeden vypočítaný příklad na cívku?
