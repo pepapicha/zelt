@@ -29,3 +29,69 @@ Výpočet hyperbolické dráhy je obtížný. Abychom si to zjednodušili, vytvo
 ### **3. Digitální úkoly**
 * **GeoGebra:** Zmapujte Měsíc a dráhu letu od Skupiny 3. Nakreslete **rovnoběžné přímky** tečné k povrchu Měsíce, abyste našli „stínovou zónu“. Odpovídá vizuální bod vstupu vašemu vypočítanému úhlu $\alpha$?
 * **Excel:** Prozkoumejte bezpečnost. Pokud poletíte blíže (menší $r_p$), prodlouží se výpadek, nebo zkrátí? **Co zde pozorujete?**
+
+
+## **Průvodce laboratorní připraveností k letu: Mise Artemis II**
+
+**Stav:** Fáze HEO (vysoká oběžná dráha Země) dokončena. Přechod na TLI (trans-lunární injekce).
+
+**Cíl:** Ověřit fyzikální parametry setkání s Měsícem a návratové trajektorie.
+
+---
+
+### **1. Globální brífink mise: Konstanty**
+Pro všechny výpočty používejte tyto hodnoty.
+
+**Fyzikální konstanty**
+* **Gravitační konstanta ($G$):** $6,674 \times 10^{-11} \text{ m}^3\text{kg}^{-1}\text{s}^{-2}$
+* **Hmotnost Země ($M_E$):** $5,972 \times 10^{24} \text{ kg}$
+* **Hmotnost Měsíce ($M_M$):** $7,342 \times 10^{22} \text{ kg}$
+* **Poloměr Země ($R_E$):** $6\,371 \text{ km}$
+* **Poloměr Měsíce ($R_M$):** $1\,737 \text{ km}$
+
+**Údaje o trajektorii**
+* **Výška perigea HEO ($h$):** $185 \text{ km}$
+* **Výška apogea HEO ($h_a$):** $74\,000 \text{ km}$
+* **Vzdálenost k Měsíci ($r_{moon}$):** $384\,400 \text{ km}$
+* **Poloměr periluny ($r_{p,moon}$):** $7\,400 \text{ km}$ (vzdálenost ke středu Měsíce)
+
+---
+
+### **2. Fyzikální dodatek: Energie a Kepler**
+
+**Zákon zachování energie**
+Celková energie ($\epsilon$) je součtem kinetické (rychlost) a potenciální (gravitace) energie. Energie je konstantní:
+$$\epsilon = \frac{1}{2}v^2 - \frac{\mu}{r} = \text{Konstanta}$$
+
+**Úkol: Kepler a Vis-viva**
+1. Keplerův zákon: Oběžné dráhy jsou elipsy. Velikost elipsy ($a$) určuje energii:
+$$\epsilon = -\frac{\mu}{2a}$$
+**Cíl:** Porovnejte tyto dva vzorce pro energii. Vyjádřete $v^2$ ve vzdálenosti $r$.
+**Výsledek:** $v^2 = \dots\dots\dots$
+
+**Tvary drah: Excentricita ($e$) a ohnisko**
+* **Ohnisko (Focus):** Všechny orbity mají dvě ohniska. Planeta (Země nebo Měsíc) se vždy nachází v jednom z nich.
+* **Elipsa ($e < 1$):** Uzavřená, kruhová smyčka. Plavidlo je "vázáno" k planetě.
+* **Hyperbola ($e > 1$):** Otevřená křivka. Plavidlo má dostatek energie k "úniku" a už se nikdy nevrátí.
+
+**Úkol: Úniková rychlost ($v_{esc}$)**
+K úniku potřebujete dostatek celkové energie ($\epsilon \ge 0$).
+**Cíl:** Pro dosažení dostatečné energie nastavte $\epsilon = 0$ a vypočítejte $v$.
+**Výsledek:** $v_{esc} = \dots\dots\dots$
+
+---
+
+### **3. Inženýrský dodatek: Ciolkovskij a raketová věda**
+
+**Zákon zachování hybnosti**
+Konstantin Ciolkovskij zjistil, že rakety se pohybují vpřed díky vyvrhování hmoty směrem dozadu. Toto je **Zákon zachování hybnosti**.
+
+**Raketová rovnice**
+Palivo má svou hmotnost. Abyste letěli rychleji, potřebujete více paliva. Jde o exponenciální vztah:
+$$\Delta v = v_e \ln \left( \frac{m_i}{m_f} \right)$$
+
+**Co je co?**
+* $\Delta v$: Změna rychlosti ("kopanec").
+* $v_e$: Výtoková rychlost (účinnost motoru).
+* $m_i$: Počáteční hmotnost (loď + palivo).
+* $m_f$: Konečná hmotnost (pouze loď).
