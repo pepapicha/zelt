@@ -14,6 +14,6 @@ Vektorový obrázek kruhu otevřený ve VS Code
 ## 3) Programování LED diod, regulování a frekvence
 - Jak se stmívá LED dioda, jaké musí mít minimální provozní napětí
 - Zapojení potenciometru do kontaktního nepájivého pole
-<img width="493" height="876" alt="image" src="https://github.com/user-attachments/assets/ce999c27-021a-421f-87de-8f5afaf573b7"/>
+<img width="493" height="876" alt="image" src="https://github.com/user-attachments/assets/ce999c27-021a-421f-87de-8f5afaf573b7"/><br>
 - V Makecodu následné nastavování frekvence, díky které můžeme nastavovat jas
 - Dělá se pomocí: _pins.analogSetPeriod(AnalogPin.P0, 5000);_
