@@ -9,3 +9,4 @@ Pan Kazda si postěžoval, že druhá skupina udělala bordel ve filamentech a t
 - Objekty v Inkscapu: _ellipse, circle, rectangle, text_ <- všechno lze převézt do _path_, zpětně na tvary ale ne!
 <img width="375" height="126" alt="image" src="https://github.com/user-attachments/assets/4524f238-c1a9-4c49-ba09-9826d77aada4" />
 Vektorový obrázek kruhu otevřený ve VS Code
+- Povídání o tom, jak Inkscape funguje, zákaldní funkce
